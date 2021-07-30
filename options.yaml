@@ -1,0 +1,63 @@
+countries :
+  - United States                     
+  - Azerbaiyán                       
+  - Brazil                         
+  - Croatia 
+  - Uzbekistán                    
+  - Greece                       
+  - France                      
+  - Italy                      
+  - China                     
+  - Japan                    
+  - Netherlands             
+  - Poland               
+  - Turkey              
+  - India              
+  - Chinese Taipei    
+  - South Korea      
+  - Germany         
+  - Finland        
+  - Sweden        
+  - Belgium      
+  - Argentina   
+  - Independent Olympic Participant
+  - Republic of Irland           
+  - Australia                   
+  - Mexico                     
+  - Philippines               
+  - Spain                    
+  - United Kingdom          
+  - Jamaica                
+  - Canada                
+  - Russian Olympic Committee
+  - Thailand                
+  - Denmark                
+  - Austria              
+
+#_scoring of medals
+values :
+    gold    : 7 
+    silver  : 3 
+    bronze  : 1 
+
+#_discord channel url
+channel_name : rob
+channels  : 
+    test  : https://discord.com/api/v9/channels/xxxxxxxxxxx/messages
+    rob   : https://discord.com/api/v9/channels/xxxxxxxxxxx/messages 
+
+#_user auth code for discord
+discord_auth : mfa.xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+#_player picks from above
+players : 
+    Rob       : [2, 31, 1, 32, 2, 3, 4, 5]
+    Jared     : [0, 6, 7] 
+    Ben       : [8, 9, 7, 10, 11, 12, 13, 14] 
+    Marquis   : [0, 9, 15] 
+    Walter    : [8, 9, 16, 17, 18, 19, 20, 21] 
+    Ramon     : [8, 30, 10, 11, 19, 22, 14, 13] 
+    Jeannette : [23, 2, 16, 9, 6, 24, 25, 26] 
+    Josh      : [27, 28, 8, 29] 
+    Zach      : [0, 30, 33] 
+
