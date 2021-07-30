@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 '''
-Webpage for sites has a typo in Ireland that is hardcoded here.
+Medal website has a typo in Ireland that is hardcoded here.
 If they fix it, Ramon gets no points for them. 
 Done is better than Perfect
 '''
