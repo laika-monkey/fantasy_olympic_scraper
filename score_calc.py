@@ -78,7 +78,7 @@ def scoreboard(players, nmax=8, **kwargs):
     hdr = ['PLAYER'] + ['ACT{}'.format(n+1) for n in range(nmax)] + ['tot']
     fmt = '{:10}' + ''.join(['{:<5}' for n in range(nmax)]) + '{:<5}'
     table = '```\n' + fmt.format(*hdr) + '\n'
-    for i, (player_name, rank) in enumerate(rank):
+    for i, (player_name, dummy) in enumerate(rank):
         player = players[index(player_name, 'name', players)]
         row = [player.name] 
         [row.append(c.score) for c in player.countries]
